@@ -1,11 +1,10 @@
 package main
 
 import (
-    "fmt"
-    "./Welcome!"
+	"./welcome"
 )
 
 func main() {
-    Welcome!.hello()
-	Welcome!.sandbox()
+	welcome.Hello()
+	welcome.Sandbox()
 }
